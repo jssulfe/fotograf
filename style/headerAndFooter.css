@@ -72,7 +72,7 @@ h2 {
 }
 
 .login-button a {
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-family: "Jersey 15", serif;
   font-size: 1.4rem;
   font-weight: 500;
@@ -80,13 +80,14 @@ h2 {
 }
 
 .register-button {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 100%);
   padding: 10px;
   border-radius: 25px;
+  border: 2px solid red;
 }
 
 .register-button a {
-  color: black;
+  color: red;
   font-size: 1.4rem;
   font-family: "Jersey 15", serif;
   font-weight: 500;
@@ -113,5 +114,5 @@ a {
 
 .foot a {
   text-decoration: none;
-  color: black;
+  color: hsl(0, 0%, 28%);
 }
