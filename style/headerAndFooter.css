@@ -9,6 +9,8 @@ header {
   height: 70px;
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
+  position: fixed;
+  z-index: 3;
 }
 
 .material-symbols-outlined {

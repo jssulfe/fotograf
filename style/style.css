@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -25,14 +26,16 @@ h1 {
 
 .gallery {
   height: 100vh;
-  width: 70vw;
+  width: 65vw;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .weCanDo {
   height: 100vh;
+  margin-top: 10rem;
+  padding-top: 5rem;
 }
 
 .weCanDo_tittle {
@@ -85,13 +88,14 @@ h1 {
 
 .itWork {
   background-color: hsl(0, 100%, 96%);
-  height: 80vh;
+  height: auto;
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-top: 5rem;
 }
 
 .itWorkTittle {
@@ -124,4 +128,42 @@ h1 {
 .functions p {
   width: 80%;
   margin-left: 4rem;
+}
+
+.login2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  gap: 1.5rem;
+}
+
+.login2-button {
+  background-color: hsl(0, 100%, 50%);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.login2-button a {
+  color: hsl(0, 0%, 100%);
+  font-family: "Jersey 15", serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.register2-button {
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid red;
+}
+
+.register2-button a {
+  color: red;
+  font-size: 1.4rem;
+  font-family: "Jersey 15", serif;
+  font-weight: 500;
+  font-style: normal;
 }
