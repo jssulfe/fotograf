@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Jersey+15&family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.wellcome {
+  padding-top: 6.25rem;
+  padding-left: 3.125rem;
+}
+
+.whatDo {
+  padding: 5rem 0;
+}
+
+.whatDo h1 {
+  text-align: center;
+  font-family: "Permanent Marker", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: hsl(0, 100%, 50%);
+}
+
+.whatCreate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whatCreate1 {
+  width: 18.75rem;
+  height: auto;
+}
+
+.whatCreateImg {
+  height: 80%;
+  width: 100%;
+}
+
+.whatCreateImg img {
+  width: 100%;
+}
+
+.whatCreateTxt {
+  height: 20%;
+  width: 100%;
+}
+
+.whatCreateTxt h3 {
+  padding: 1rem 0;
+  text-align: center;
+}
