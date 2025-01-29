@@ -191,6 +191,9 @@ h1 {
 .container.active .form-box.form-box.register {
   visibility: visible;
 }
+.toggle-box p {
+  font-weight: bold;
+}
 
 @media screen and (max-width: 650px) {
   .container {
@@ -262,5 +265,8 @@ h1 {
   }
   .form-box.register button {
     margin: 0 0 5px 0;
+  }
+  .input-box {
+    margin: 15px;
   }
 }
