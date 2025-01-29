@@ -257,4 +257,10 @@ h1 {
   .social-icons {
     margin-bottom: 1rem;
   }
+  .form-box.register p {
+    margin: 5px 0 10px 0;
+  }
+  .form-box.register button {
+    margin: 0 0 5px 0;
+  }
 }
