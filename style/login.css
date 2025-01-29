@@ -247,7 +247,7 @@ h1 {
 
 @media screen and (max-width: 400px) {
   .form-box {
-    padding: 1.25rem;
+    padding: 0rem;
   }
 
   .toggle-panel h1 {
